@@ -1,0 +1,121 @@
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+         background: #fff;
+ background: linear-gradient(to top right, #ffff99 0%, #ff9966 100%);
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #3f729b;
+background: radial-gradient(circle at 30% 150%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color:floralwhite;
+height: 300px;
+}
+.click
+{
+    color:white;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+body{
+	padding:50px 0px 0px 0px;
+	z-index: 0;
+}
+.navbar-dark{
+         background: #3f729b;
+background: radial-gradient(circle at 100% 60%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+.car{
+       background: #3f729b;
+background: radial-gradient(circle at 150% 60%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.carousel {
+       background: #3f729b;
+background: radial-gradient(circle at 150% 60%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.t{
+    color: black;
+}
+.carousel-item {
+  height: 300px;
+}
+
+
+.it {
+  height: 550px;
+}
+.im{
+
+    height: 550px;
+    width: 1080px;
+}
+@media only screen and (max-width: 600px) {
+.it {
+  height: 300px;
+  width: 300px;
+}
+.jumbotron {
+    height: 500px;
+}
+.im{
+
+    height: 300px;
+    width: 300px;
+}
+.navbar-dark{
+         background: #3f729b;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.radio-inline{
+	margin-left: 3px;
+	margin-right: 2px;
+}
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.modal-header{
+  background-color: #512DA8;
+color: white;
+}
+.modal-body{
+  background:#9575CD;
+  
+}
+.close{
+  color:#9575CD;
+}
